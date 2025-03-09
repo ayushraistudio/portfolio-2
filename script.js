@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const secretElement = document.getElementById("secret");
 
     revealButton.addEventListener("click", function() {
-        secretElement.innerHTML = " I really love you! You don't know how much I love you! ❤️<br> Just like a cherry on top of a cake, you make my life complete! 🍒";
+        secretElement.innerHTML = "you don't follow me you follow my heart! You don't know how much I love you ! ❤️<br> Just like a cherry on top of a cake, you make my life complete! 🍒";
         secretElement.style.opacity = "1"; // Message visible hoga
         revealButton.style.display = "none"; // Button hide hoga
     });
